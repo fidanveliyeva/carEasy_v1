@@ -206,6 +206,11 @@ body{
     border: 1px solid #EBEAEAB0;
     border-radius: 15px;
 }
+.feature-card:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px 0 #b7b6b6;
+    transition: all 0.3s;
+}
 .feature-card h3{
     font-size: 35px;
     font-weight: 500;
@@ -334,6 +339,10 @@ body{
     width: 200px;
     height: 50px;
     margin: 0 auto;
+}
+.contact-btn:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px 0 #cbcbcb;
 }
 .contact-btn a {
     font-size: 18px;
@@ -536,7 +545,12 @@ footer img{
     border-radius: 70px;
     padding: 25px;
     margin: 25px 10px;
-    border: 1px solid #515050;
+    border: 0.5px solid #c0c0c0;
+}
+.service-box:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px 0 #b39d80;
+    transition: all 0.3s;
 }
 .service-left h4, .service-right h4{
     color: #515050;
@@ -587,6 +601,11 @@ footer img{
     background-color: #EBEAEA;
     border: 1px solid #EBEAEA;
     border-radius: 30px;
+}
+.member:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px 0 #919191;
+    transition: all 0.3s;
 }
 .member img{
     width: 100%;
@@ -657,6 +676,7 @@ footer img{
     background-color: #F1F0F0;
     border-radius: 20px;
 }
+
 .service-card h3{
     font-size: 40px;
     font-weight: 500;
@@ -676,6 +696,11 @@ footer img{
     background-color: #BF7922A6;
     margin-left: 30px;
 
+}
+.book-now:hover{
+    cursor: pointer;
+    box-shadow: 0 0 10px 0 #5a3910;
+    transition: all 0.3s;
 }
 .book-now a{
     text-decoration: none;
