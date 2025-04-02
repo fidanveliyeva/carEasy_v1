@@ -1719,6 +1719,7 @@ footer {
     padding: 10px;
 } */
 .faq-header {
+    font-weight: 600;
     font-size: 16px;
     padding: 10px;
 }
@@ -1742,6 +1743,9 @@ footer {
     font-size: 14px;
 }
 .contact-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     font-size: 14px;
     padding: 10px;
 }
