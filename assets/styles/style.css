@@ -382,6 +382,7 @@ body{
     margin: 0 auto;
     overflow: hidden;
 }
+.swiper-wrapper
 .swiper-slide {
     background: #fff;
     padding: 20px;
@@ -1166,6 +1167,7 @@ footer img{
 }
 
 .swiper-wrapper{
+    transition: all 0.3s;
     width: 100% !important;
 }
 
