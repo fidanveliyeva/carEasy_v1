@@ -1743,6 +1743,7 @@ footer {
     font-size: 14px;
 }
 .contact-btn {
+    height: 43px;
     display: flex;
     justify-content: center;
     align-items: center;
