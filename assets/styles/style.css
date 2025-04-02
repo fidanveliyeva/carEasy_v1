@@ -554,7 +554,7 @@ footer img{
 .service-box:hover{
     cursor: pointer;
     box-shadow: 0 0 10px 0 #b39d80 !important;
-    transition: all 0.3s !important;
+    /* transition: all 0.3s !important; */
 }
 .service-left h4, .service-right h4{
     color: #515050;
