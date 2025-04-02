@@ -443,6 +443,11 @@ footer img{
     border: 1px solid #000;
     border-radius: 30px;
 }
+.input-container button:hover{
+    transition: all 0.3s;
+    cursor: pointer;
+    box-shadow: 0 0 10px 0 #3B3B3B;
+}
 /* footer links */
 .footer-container{
     display: flex;
