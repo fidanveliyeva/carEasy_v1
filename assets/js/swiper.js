@@ -1,13 +1,11 @@
 var swiper = new Swiper('.swiper-container', {
     slidesPerView: 3,
     spaceBetween: 10,
-    loop: true,
-    speed: 800,
-    // autoplay: {
-    //     delay: 2000,
-    //     disableOnInteraction: false,
-    // },
+    speed: 800, // Плавная прокрутка
+    loop: true, // Отключаем зацикливание
     navigation: false,
+    resistanceRatio: 0, // Убирает эффект "отскока"
+    touchReleaseOnEdges: true, // Позволяет скроллить за пределы
 
     breakpoints: {
         1024: {
