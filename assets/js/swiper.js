@@ -49,6 +49,7 @@ document.addEventListener("DOMContentLoaded", function () {
     var swiper = new Swiper(".swiper-container", {
         slidesPerView: 3, // По умолчанию 3 карточки
         spaceBetween: 20, // Отступ между карточками
+        speed: 200,
         loop: true, // Бесконечная прокрутка
         pagination: {
             el: ".swiper-pagination",
