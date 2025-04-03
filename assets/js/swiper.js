@@ -22,32 +22,42 @@
 
 
 
+// document.addEventListener("DOMContentLoaded", function () {
+//     var swiper = new Swiper(".swiper-container", {
+//         slidesPerView: 3, // По умолчанию 3 карточки
+//         spaceBetween: 20, // Отступ между карточками
+//         breakpoints: {
+//             1024: {
+//                 slidesPerView: 3,
+//             },
+//             768: {
+//                 slidesPerView: 2,
+//             },
+//             480: {
+//                 slidesPerView: 1,
+//             }
+//         },
+//         pagination: {
+//             el: ".swiper-pagination",
+//             clickable: true,
+//         }
+//     });
+// });
 
-var swiper = new Swiper('.swiper-container', {
-    slidesPerView: 3,
-    spaceBetween: 10,
-    speed: 1000, // Плавная прокрутка
-    loop: true, // Отключаем зацикливание
-    navigation: false,
-    grabCursor: true, // Удобнее листать
-    resistanceRatio: 0, // Без "липкого" эффекта
-    touchReleaseOnEdges: true, // Позволяет выйти за границы
-    slideToClickedSlide: true, // Переход по клику
-    shortSwipes: true, // Даже короткий свайп меняет карточку
-    watchOverflow: true, // Если слайдов мало, свайпер не ломается
 
-    breakpoints: {
-        1024: {
-            slidesPerView: 3
+document.addEventListener("DOMContentLoaded", function () {
+    var swiper = new Swiper(".swiper-container", {
+        slidesPerView: 3, // По умолчанию 3 карточки
+        spaceBetween: 20, // Отступ между карточками
+        loop: true, // Бесконечная прокрутка
+        pagination: {
+            el: ".swiper-pagination",
+            clickable: true,
         },
-        768: {  
-            slidesPerView: 2
-        },
-        480: { 
-            shortSwipes: true, 
-            slidesPerView: 1, // В мобильной версии листаем по 1 карточке
-            centeredSlides: true, // Слайд центрируется для лучшего UX
+        breakpoints: {
+            1024: { slidesPerView: 3 },
+            768: { slidesPerView: 2 },
+            0: { slidesPerView: 1 } // Для всех экранов меньше 768px (мобильная версия)
         }
-    }
+    });
 });
-
