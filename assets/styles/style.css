@@ -277,12 +277,20 @@ body{
     border-radius: 40px;
 }
 /* faq onclick */
-.faq-header {
+/* .faq-header {
     font-weight: 500;
     font-size: 25px;
     padding: 15px;
     display: flex;
     justify-content: space-between  ;
+    cursor: pointer;
+} */
+
+.faq-header {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Центрируем */
     cursor: pointer;
 }
 .faq-content {
@@ -298,7 +306,7 @@ body{
     padding: 15px;
     transition: max-height 0.3s ease-in, padding 0.3s ease-in;
 }
-.icon{
+/* .icon{
     
     display: flex;
     align-items: center;
@@ -311,6 +319,30 @@ body{
     background-color: #D09751;
     border-radius: 50%;
     transition: transform 0.3s ease-in-out;
+} */
+
+
+
+.faq-question {
+    
+    font-weight: 500;
+    font-size: 20px;
+    padding: 10px;
+    flex: 1; /* Позволяет тексту занимать всю доступную ширину */
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    font-size: 20px;
+    color: white;
+    background-color: #D09751;
+    border-radius: 50%;
+    transition: transform 0.3s ease-in-out;
+    flex-shrink: 0; /* Предотвращает сжатие */
 }
 
 .contact{
@@ -554,7 +586,7 @@ footer img{
 .service-box:hover{
     cursor: pointer;
     box-shadow: 0 0 10px 0 #b39d80 !important;
-    /* transition: all 0.3s !important; */
+    transition: all 0.3s !important;
 }
 .service-left h4, .service-right h4{
     color: #515050;
@@ -1720,12 +1752,13 @@ footer {
 /* .faq-item{
     padding: 10px;
 } */
-.faq-header {
-    font-size: 16px;
+.faq-question {
+    font-size: 20px;
     padding: 10px;
 }
 .faq-content {
-    font-size: 14px;
+    font-weight: 500;
+    font-size: 16px;
     padding: 0 10px;
 }
 .icon {
