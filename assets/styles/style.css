@@ -103,16 +103,17 @@ body{
     flex-direction: column;
     align-items: center;
     gap: 40px;
-    >.card1, .card2{
-        display: flex;
-    }
-    >.card1{
-        gap: 30px;
-    }
-    >.card2{
-        margin-left: 40px;
-        gap: 30px;
-    }
+   
+}
+.key-services .card1, .card2{
+    display: flex;
+}
+.key-services .card1{
+    gap: 30px;
+}
+.key-services .card2{
+    margin-left: 40px;
+    gap: 30px;
 }
 .service-title{
     font-size: 26px;
