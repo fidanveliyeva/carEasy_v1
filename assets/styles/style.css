@@ -353,6 +353,7 @@ body{
 .contact-btn:hover{
     cursor: pointer;
     box-shadow: 0 0 10px 0 #cbcbcb;
+    transition: all 0.3s;
 }
 .contact-btn a {
     font-size: 18px;
