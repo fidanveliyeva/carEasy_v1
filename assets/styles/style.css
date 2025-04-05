@@ -176,7 +176,45 @@ body{
     font-weight: 400;
     font-size: 20px;
 }
+/* map */
+.map-section {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.map-section h3{
+    color: #3B3B3B;
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.map-btns{
+    display: flex;
+    gap: 40px;
+    margin-bottom: 20px;
+}
+.map-btns button{
+    border: 1px solid #494949;
+    border-radius: 10px;
+    padding: 10px;
+}
+.map-btns button:hover{
+    cursor: pointer;
+    background-color: #D09751;
+    transition: all 0.3s;
+}
+.map-btns button span{
+    margin: 10px;
+    font-size: 20px;
+    color: #626262;
+    font-weight: 500;
+}
+.map-btns button span:hover{
+    color: #fff;
 
+}
 /* --------------------------------------------- */
 /*  SERVICES HTML */
 
