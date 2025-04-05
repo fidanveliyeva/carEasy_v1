@@ -196,6 +196,7 @@ body{
     margin-bottom: 20px;
 }
 .map-btns button{
+    background-color: #fff;
     border: 1px solid #494949;
     border-radius: 10px;
     padding: 10px;
